@@ -1,4 +1,4 @@
-const GalleryModel = require('../models/GalleryModel');
+// const GalleryModel = require('../models/GalleryModel');
 const MediaModel = require('../models/GalleryModel'); // Ensure this exports the mongoose model correctly
 const path = require('path');
 
