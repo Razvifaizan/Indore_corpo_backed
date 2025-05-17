@@ -1,4 +1,4 @@
-const GalleryModel = require('../models/GalleryModel');
+const MediaModel = require('../Models/GalleryModel.js');
 const path = require('path');
 
 exports.addMedia = async (req, res) => {
