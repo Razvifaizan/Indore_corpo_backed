@@ -46,7 +46,7 @@ exports.getMedia = async (req,res)=>{
 exports.deleteMedia = async (req,res)=>{
  try {
     const id = req.params.id;
-    const deleteMedia = await GalleryModel.findByIdAndDelete(id);
+    const deleteMedia = await MediaModel.findByIdAndDelete(id);
 
     if (deleteMedia) {
       return res.status(200).json({
