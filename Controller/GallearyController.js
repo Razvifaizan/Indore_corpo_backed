@@ -1,5 +1,4 @@
-// const GalleryModel = require('../models/GalleryModel');
-const MediaModel = require('../models/GalleryModel'); // Ensure this exports the mongoose model correctly
+const MediaModel = require('../models/GalleryModel'); 
 const path = require('path');
 
 exports.addMedia = async (req, res) => {
