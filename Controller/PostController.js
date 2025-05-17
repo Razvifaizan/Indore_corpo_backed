@@ -1,4 +1,4 @@
-const PostModel = require('../models/PostModel'); // Ensure this exports the mongoose model correctly
+const PostModel = require('../Models/PostModel.js');// Ensure this exports the mongoose model correctly
 const path = require('path');
 
 exports.addPost = async (req, res) => {
